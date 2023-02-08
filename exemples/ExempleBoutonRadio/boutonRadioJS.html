@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- le lien vers le fichier JavaScript doit être placé juste avant la balise fermante </head> -->
+        <meta charset="UTF-8">
+        <title>Web débile</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+
+    <body>
+        <h1>Qui es-tu ?</h1>
+        
+        <p>Indiquez qui vous êtes :</p>
+        <label for="Alice">Alice</label>
+        <input type="radio" id="alice" value="Alice" name="werbistdu" onchange="mymessage()">
+
+        <label for="bob">Bob</label>
+        <input type="radio" id="bob" value="Bob" name="werbistdu" onchange="mymessage()">
+        
+        <label for="charlie">Charlie</label>
+        <input type="radio" id="charlie" value="Charlie" name="werbistdu" onchange="mymessage()">
+        <br/>
+        <div id="messageBienvenue" class="special"> 
+        </div>
+	</body>
+</html>
